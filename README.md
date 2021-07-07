@@ -7,3 +7,8 @@ Modals are everywhere in websites and web applications. They are quite easy to d
 What happens to the modal when the screen is resized vertically (y-axis)?
 *Pain*.
 
+## The solution
+This repo contains a *cool* CSS solution that can be implemented almost everywhere.
+
+## TBD
+- media query for mobile/tablet responsiveness

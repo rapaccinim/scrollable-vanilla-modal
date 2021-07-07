@@ -18,8 +18,23 @@
 </head>
 
 <body>
-    <h1>Simple y-axis scrollable modal</h1>
-    <h2></h2>
+    <header>
+        <h1>Simple Y-axis scrollable modal</h1>
+        <h2>Modals look easy, right?</h2>
+        <h3>Reality is that they are often <em>painful</em>...</h3>
+    </header>
+    <div class="main-container">
+        <div><a href="https://en.wikipedia.org/wiki/Modal_window" target="_blank">(WTF is a modal?)</a><span>🤔</span></div>
+        <div><button class="modal-open-button modal-open-button-default" id="modal-open-button-default">Default Modal</button></div>
+        <div><button class="modal-open-button modal-open-button-scrollable" id="modal-open-button-scrollable">Scrollable Modal</button></div>
+    </div>
+    <div class="modal-overlay" id="modal-overlay"></div>
+    <div class="modal-container" id="modal-container-not-scrollable">
+
+    </div>
+    <div class="modal-container" id="modal-container-scrollable">
+
+    </div>
     <script src="js/scripts.js"></script>
 </body>
 

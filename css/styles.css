@@ -1,0 +1,98 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    text-align: center;
+}
+
+.main-container{
+    margin: 50px 20px;
+    text-align: center;
+}
+
+.main-container > div{
+    margin-top: 50px;
+}
+
+.modal-open-button{
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 25px;
+    border: 0px;
+    color: white;
+    box-shadow: 10px 10px 10px 0px rgba(55 55 55 / 20%);
+    opacity: 0.8;
+}
+
+.modal-open-button:hover{
+    opacity: 1;
+    transform: translate3D(0,-1px,0) scale(1.03);
+}
+
+.modal-open-button.modal-open-button-default{
+    background-color: black;
+}
+
+.modal-open-button.modal-open-button-scrollable{
+    background-color: green;
+}
+
+.modal-overlay{
+    display: none;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+  
+@-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+  
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+  
+@-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+  
+@-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+.modal-overlay .modal-overlay-visible{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    animation: fadeIn 0.5s;
+    -moz-animation: fadeIn 0.5s;
+    -webkit-animation: fadeIn 0.5s;
+    -o-animation: fadeIn 0.5s;
+}
+
+.modal-container{
+    display: none;
+}
+
+.modal-container .modal-container-visible{
+
+}
+
+.modal-container .modal-container-not-scrollable{
+
+}
+
+.modal-container .modal-container-scrollable{
+
+}
