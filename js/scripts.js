@@ -4,7 +4,7 @@ var notScrollableModal = document.getElementById("modal-container-not-scrollable
 var scrollableModal = document.getElementById("modal-container-scrollable");
 var modalClosebutton = document.getElementsByClassName("modal-container-close-button");
 
-// create and array from the HTML button elements and add the eventListener to each item (button)
+// create an array from the HTML button elements and add the eventListener to each item (button)
 Array.from(modalOpenButton, button => button.addEventListener("click", event => {
 
     modalOverlay.classList.add("modal-overlay-visible");
